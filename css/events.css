@@ -1,0 +1,29 @@
+.text-blue {
+    color: blue;
+}
+
+.make-large {
+    font-size: x-large;
+}
+
+.add-border {
+    border: 2px solid blue;
+}
+
+.add-rounding {
+    background-color: pink;
+    border-radius: 50px;
+}
+
+section:first-of-type {
+    font-weight: bold;
+}
+
+section:last-of-type {
+    font-weight: bold;
+    font-style: italic;
+}
+
+button {
+    display: block;
+}
