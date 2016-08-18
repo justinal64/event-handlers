@@ -29,7 +29,6 @@ inputElement.addEventListener("keyup", function() {
     outputTargetText(this.value);
 });
 
-// is their a way to create this in a foreach or for loop???????
 // When user clicks text color changes color
 addColorButton.addEventListener("click", function() {
     addClassName("text-blue");
@@ -59,15 +58,5 @@ function addClassName(className) {
     // apply the className passed by arg
     guineaPigElement.className = className;
 }
-
-function test(input) {
-    console.log(input);
-}
-
-
-
-
-
-
 
 
